@@ -135,13 +135,12 @@ p {
 .contact a:hover {
   color: var(--blue);
 }
-
-.main {
+.main{
   height: 600px;
-  display: flex;
-  flex-direction: column;
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,48,58,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,48,58,1) 35%, rgba(0,212,255,1) 100%);
 background-image: url(./people.jpg);
+display: flex;
+  flex-direction: column;
 }
 
 .main h1 {
@@ -158,6 +157,16 @@ background-image: url(./people.jpg);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  
+}
+.window{
+  background-color: var(--white);
+  border-radius: 4px;
+  width: 528px;
+  height: 581px;
+  left: 430px;
+top: 221px;
+position: absolute;
 }
 
 .open-btn {
@@ -198,7 +207,7 @@ background-image: url(./people.jpg);
  position: absolute;
 width: 30px;
 height: 30px;
-left: 1026px;
+left: 920px;
 top: 229px;
 background-color: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
