@@ -178,8 +178,10 @@ display: flex;
   border-radius: 4px;
   width: 528px;
   height: 581px;
-  left: 430px;
-top: 221px;
+  top: 221px;
+  left: 50%;
+  transform: translate(-50%);
+
 position: absolute;
 }
 
@@ -224,7 +226,8 @@ position: absolute;
  position: absolute;
 width: 30px;
 height: 30px;
-left: 920px;
+right: 544px;
+transform: translate(-70%);
 top: 229px;
 background-color: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -364,6 +367,10 @@ background-color: rgba(47, 48, 58, 0.8);
   height: 40px;
   margin-right: 5px;
   margin-left: 5px;
+  align-items: center;
+  
+  
+  
 }
 .quarter {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -380,6 +387,7 @@ background-color: rgba(47, 48, 58, 0.8);
 .quarter svg{
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 8px;
 }
 .quarter svg:hover {
   color: var(--white);
@@ -389,6 +397,7 @@ background-color: rgba(47, 48, 58, 0.8);
   width:40px;
   height: 40px;
   border-radius: 50%;
+  padding-left: 8px;
 }
 .clients h2 {
   font-weight: 700;
@@ -607,7 +616,7 @@ footer {
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .part2 svg {
@@ -615,6 +624,8 @@ footer {
   height: 40px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .part2 svg:hover {
   color: var(--white);
@@ -623,5 +634,6 @@ footer {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-
+padding-top: 10px;
+padding-left: 10px;
 }
