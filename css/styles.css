@@ -105,12 +105,13 @@ p {
   font-size: 14px;
   line-height: 100%;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav a:hover {
   color: var(--blue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 
 }
 
@@ -133,12 +134,13 @@ p {
   font-size: 14px;
   line-height: 100%;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact a:hover {
   color: var(--blue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .main{
   height: 600px;
@@ -190,6 +192,8 @@ position: absolute;
   padding-right: 41px;
   padding-bottom: 10px;
   padding-top: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .open-btn:hover{
   
@@ -199,8 +203,7 @@ position: absolute;
     cursor: pointer;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
-      transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      
   }
 
 .is-hidden {
@@ -267,7 +270,7 @@ cursor: pointer;
   line-height: 100%;
   color: var(--black);
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .photo {
@@ -311,7 +314,14 @@ background-color: rgba(47, 48, 58, 0.8);
   margin-left: auto;
   margin-right: auto;
 }
-
+.ourteam h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--black);
+  text-align: center;
+  padding-bottom: 50px;
+}
 .employees {
   display: flex;
   flex-direction: row;
@@ -360,6 +370,10 @@ background-color: rgba(47, 48, 58, 0.8);
   margin-left: 20px;
   margin-right: 20px;
 }
+.quarter svg{
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .quarter svg:hover {
   color: var(--white);
   background-color: var(--blue);
@@ -374,11 +388,13 @@ background-color: rgba(47, 48, 58, 0.8);
   font-size: 36px;
   line-height: 100%;
   color: var(--black);
+  text-align: center;
+  padding-bottom: 50px;
 }
 .logoclients{
   display: flex;
   flex-direction: row;
-  
+ 
 }
 .logoclients svg {
   width: 90px;
@@ -386,7 +402,8 @@ background-color: rgba(47, 48, 58, 0.8);
   display: block;
   padding-top: 20px;
   margin: auto;
- 
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logoclients div{
@@ -396,6 +413,8 @@ background-color: rgba(47, 48, 58, 0.8);
   margin-left: 10px;
   margin-right: 10px;
   border: 1px solid #AFB1B8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logoclients div:hover {
   
@@ -403,8 +422,7 @@ background-color: rgba(47, 48, 58, 0.8);
 border-radius: 4px;
   cursor: pointer;
   --color1:var(--blue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 
@@ -430,6 +448,8 @@ border-radius: 4px;
   padding-bottom: 6px;
   padding-right: 22px;
   border-radius: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .second button:hover {
   color: var(--white);
@@ -438,8 +458,7 @@ border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .third {
   display: flex;
@@ -466,14 +485,14 @@ border-radius: 4px;
 .one div {
   border: var(--border) 1px solid;
   margin-bottom: 30px;
-
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .one div:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .two {
   flex-direction: row;
@@ -483,13 +502,14 @@ border-radius: 4px;
 .two div {
   border: var(--border) 1px solid;
   margin-bottom: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .two div:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .three {
   flex-direction: row;
@@ -498,13 +518,14 @@ border-radius: 4px;
 .three div {
   border: var(--border) 1px solid;
   margin-bottom: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .three div:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 footer {
   background-color: var(--grey2);
@@ -546,13 +567,14 @@ footer {
 .address a {
   color: var(--white);
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address a:hover {
   color: var(--blue);
   text-decoration: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .street {
@@ -579,7 +601,8 @@ footer {
 .part2 svg {
   width: 40px;
   height: 40px;
-  
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .part2 svg:hover {
   color: var(--white);
