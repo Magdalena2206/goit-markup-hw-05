@@ -181,7 +181,7 @@ display: flex;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-position: absolute;
+position: fixed;
 }
 
 .open-btn {
@@ -224,21 +224,19 @@ position: absolute;
 }
 .backdrop{
   background: rgba(0, 0, 0, 0.2);
-  width: 1200px;
-  height: 252px;
+  width: 100%;
+  height: auto;
   backdrop-filter: blur(10%);
   position: absolute;
   
 }
 
-.close-btn{
- position: absolute;
+.window button{
+ position: fixed;
 width: 30px;
 height: 30px;
-right: 31%;
-top: 10%;
-transform: translate(-31%, -10%);
-
+right: 8px;
+top: 8px;
 background-color: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
