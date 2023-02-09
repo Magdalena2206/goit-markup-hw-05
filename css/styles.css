@@ -512,7 +512,7 @@ border-radius: 4px;
   width: 370px;
   height: 294px;
 }
-.blue:hover::after{
+.box:hover::after{
   content: "";
   position:absolute;
   width: 370px;
@@ -524,7 +524,6 @@ border-radius: 4px;
   animation-duration: 1s;
   animation-iteration-count:inherit;
   animation-direction:alternate;
-  
 
 }
 @keyframes height{
