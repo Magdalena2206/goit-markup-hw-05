@@ -507,19 +507,31 @@ border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  top:0;
+  right: 0;
 }
-
-.blue:hover::after{
-  content: "";
-  position: absolute;
+.box img{
   width: 370px;
   height: 294px;
-  margin: 0;
-  top: 0;
+}
+.blue:hover::after{
+  content: "";
+  position:absolute;
+  width: 370px;
+  height: 294px;
+  bottom: 35%;
   right: 0;
   background: rgba(33, 150, 243, 0.9);
-  transform-origin: bottom center;
+  animation-name: height;
+  animation-duration: 1s;
+  animation-iteration-count:inherit;
   animation-direction:alternate;
+  
+
+}
+@keyframes height{
+0%{height:0px};
+100%{height: 294px;}
 }
 .one {
   flex-direction: row;
