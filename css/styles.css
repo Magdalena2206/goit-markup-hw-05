@@ -69,8 +69,8 @@ p {
   font-weight: 700;
   text-decoration: none;
 }
-.black-text{
-  color:var(--black);
+.black-text {
+  color: var(--black);
 }
 .first {
   display: flex;
@@ -84,7 +84,6 @@ p {
   inline-size: 100%;
   width: 1200px;
 }
-
 
 .nav {
   padding-left: 93px;
@@ -112,15 +111,15 @@ p {
 .nav a:hover {
   color: var(--blue);
 }
-.sign::after{
-  content:"";
+.sign::after {
+  content: "";
   position: absolute;
-width: 53px;
-height: 4px;
-margin-left:-51px;
-margin-top:50px;
-background-color: #2196F3;
-border-radius: 2px;
+  width: 53px;
+  height: 4px;
+  margin-left: -51px;
+  margin-top: 50px;
+  background-color: #2196f3;
+  border-radius: 2px;
 }
 .contact {
   display: flex;
@@ -147,13 +146,17 @@ border-radius: 2px;
 
 .contact a:hover {
   color: var(--blue);
-  
 }
-.main{
+.main {
   height: 600px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,48,58,1) 35%, rgba(0,212,255,1) 100%);
-background-image: url(./people.jpg);
-display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 48, 58, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-image: url(./people.jpg);
+  display: flex;
   flex-direction: column;
 }
 
@@ -171,17 +174,16 @@ display: flex;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  
 }
-.window{
+.window {
   background-color: var(--white);
   border-radius: 4px;
   width: 528px;
   height: 581px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-position: fixed;
+  transform: translate(-50%, -50%);
+  position: fixed;
 }
 
 .open-btn {
@@ -203,24 +205,19 @@ position: fixed;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.open-btn:hover{
-  
-    color: var(--white);
-    background-color: var(--blue);
-    border: 1px var(--blue);
-    cursor: pointer;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-      
-  }
+.open-btn:hover {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 1px var(--blue);
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  
-  
-  
 }
 .modal {
   background: rgba(0, 0, 0, 0.2);
@@ -229,19 +226,18 @@ position: fixed;
   top: 0;
   left: 0;
   position: fixed;
-  
 }
 
-.window button{
- position: fixed;
-width: 30px;
-height: 30px;
-right: 8px;
-top: 8px;
-background-color: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.1);
-border-radius: 50%;
-cursor: pointer;
+.window button {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  right: 8px;
+  top: 8px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
 }
 .lorem {
   display: flex;
@@ -295,38 +291,34 @@ cursor: pointer;
 .photo {
   display: flex;
   flex-direction: row;
-  
 }
 
-.signature{
+.signature {
   position: relative;
   margin-right: 15px;
   margin-left: 15px;
-  width: 370px; 
+  width: 370px;
   height: 294px;
 }
 
-.signature > .label{
+.signature > .label {
   color: var(--white);
   font-weight: 700;
-font-size: 14px;
-line-height: 100%;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-position: absolute;
-width: 370px;
-height: 75px;
-padding-top: 27px;
-padding-right: 27px;
-margin: 0;
-bottom:0;
-right: 0;
-background-color: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 370px;
+  height: 75px;
+  padding-top: 27px;
+  padding-right: 27px;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(47, 48, 58, 0.8);
 }
-
-  
-
 
 .ourteam {
   background-color: #f5f4fa;
@@ -377,9 +369,6 @@ background-color: rgba(47, 48, 58, 0.8);
   margin-right: 5px;
   margin-left: 5px;
   align-items: center;
-  
-  
-  
 }
 .quarter {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -393,7 +382,7 @@ background-color: rgba(47, 48, 58, 0.8);
   margin-left: 20px;
   margin-right: 20px;
 }
-.quarter svg{
+.quarter svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding-left: 8px;
@@ -403,7 +392,7 @@ background-color: rgba(47, 48, 58, 0.8);
   background-color: var(--blue);
   border: 1px var(--blue);
   cursor: pointer;
-  width:40px;
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   padding-left: 8px;
@@ -416,10 +405,9 @@ background-color: rgba(47, 48, 58, 0.8);
   text-align: center;
   padding-bottom: 50px;
 }
-.logoclients{
+.logoclients {
   display: flex;
   flex-direction: row;
- 
 }
 .logoclients svg {
   width: 90px;
@@ -431,25 +419,22 @@ background-color: rgba(47, 48, 58, 0.8);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logoclients div{
+.logoclients div {
   border-radius: 4px;
   width: 170px;
   height: 92px;
   margin-left: 10px;
   margin-right: 10px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logoclients div:hover {
-  
-  border: 1px solid #2196F3;
-border-radius: 4px;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
   cursor: pointer;
-  --color1:var(--blue);
-  
+  --color1: var(--blue);
 }
-
 
 .second {
   display: flex;
@@ -483,7 +468,6 @@ border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-    
 }
 .third {
   display: flex;
@@ -501,7 +485,7 @@ border-radius: 4px;
   padding-left: 24px;
   padding-right: 24px;
 }
-.box{
+.box {
   border: var(--border) 1px solid;
   margin-bottom: 30px;
   position: relative;
@@ -510,13 +494,13 @@ border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.box img{
+.box img {
   width: 370px;
   height: 294px;
 }
-.box:hover::after{
+.box > .technocrack {
   content: "";
-  position:absolute;
+  position: absolute;
   width: 370px;
   height: 294px;
   bottom: 35%;
@@ -524,49 +508,56 @@ border-radius: 4px;
   background: rgba(33, 150, 243, 0.9);
   animation-name: height;
   animation-duration: 1s;
-  animation-iteration-count:inherit;
-  animation-direction:alternate;
-
+  animation-iteration-count: inherit;
+  animation-direction: alternate;
 }
-@keyframes height{
-0%{height:0px};
-100%{height: 294px;}
+.technocrack p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--white);
+  padding-top: 49px;
+  padding-left: 24px;
+}
+
+@keyframes height {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 294px;
+    text-decoration: ;
+  }
 }
 .one {
   flex-direction: row;
   margin-right: 30px;
 }
 
-
 .one div:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  
 }
 .two {
   flex-direction: row;
   margin-right: 30px;
 }
 
-
-
 .two div:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  
 }
 .three {
   flex-direction: row;
 }
 
-
 .three div:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  
 }
 footer {
   background-color: var(--grey2);
@@ -595,7 +586,7 @@ footer {
   font-weight: 700;
   text-decoration: none;
 }
-.white-text{
+.white-text {
   color: var(--white);
 }
 
@@ -615,7 +606,6 @@ footer {
 .address a:hover {
   color: var(--blue);
   text-decoration: none;
-  
 }
 
 .street {
@@ -654,6 +644,6 @@ footer {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-padding-top: 10px;
-padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
