@@ -500,7 +500,6 @@ p {
 }
 .box .technocrack {
   visibility: hidden;
-  content: "";
   position:absolute;
   width: 370px;
   height: 294px;
@@ -532,8 +531,11 @@ p {
   font-size: 18px;
   line-height: 156%;
   color: var(--white);
-  padding-top: 49px;
+  padding-bottom: 49px;
   padding-left: 24px;
+  position:absolute;
+  bottom: 0;
+  right:0
 }
 
 @keyframes height {
