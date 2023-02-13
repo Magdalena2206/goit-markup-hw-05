@@ -382,13 +382,14 @@ p {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .quarter svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding-left: 8px;
 }
 .quarter svg:hover {
-  color: var(--white);
+  --color1: var(--white);
   background-color: var(--blue);
   border: 1px var(--blue);
   cursor: pointer;
