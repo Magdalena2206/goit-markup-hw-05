@@ -524,20 +524,18 @@ p {
   animation-direction: alternate;
 }
   
-
-.technocrack p {
+.technocrack  {
   text-align: left;
   font-weight: 400;
   font-size: 18px;
   line-height: 156%;
   color: var(--white);
-  padding-bottom: 49px;
   padding-left: 24px;
+  padding-top: 49px;
   position:absolute;
-  bottom: 0;
-  right:0
+  bottom: 35%;
+  right:0;
 }
-
 @keyframes height {
   0% {
     height: 0px; 
