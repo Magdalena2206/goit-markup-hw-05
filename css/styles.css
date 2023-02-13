@@ -478,12 +478,16 @@ p {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 4px;
+  position: relative;
+  z-index: 10;
 }
 
 .third p {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  position: relative;
+  z-index: 10;
 }
 .box {
   border: var(--border) 1px solid;
@@ -493,6 +497,8 @@ p {
   right: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    z-index: 1;
 }
 .box img {
   width: 370px;
@@ -506,7 +512,7 @@ p {
   bottom: 35%;
   right: 0;
   background: rgba(33, 150, 243, 0.9);
-  
+
 }
 
 .box:hover .technocrack {
@@ -522,20 +528,25 @@ p {
   animation-duration: 1s;
   animation-iteration-count: inherit;
   animation-direction: alternate;
+  
 }
   
-.technocrack  {
-  text-align: left;
+.technocrack {
+  
   font-weight: 400;
   font-size: 18px;
   line-height: 156%;
   color: var(--white);
   padding-left: 24px;
   padding-top: 49px;
+  padding-right: 45px;
   position:absolute;
   bottom: 35%;
   right:0;
+  visibility: hidden;
+
 }
+
 @keyframes height {
   0% {
     height: 0px; 
